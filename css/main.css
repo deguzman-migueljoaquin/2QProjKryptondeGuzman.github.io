@@ -1,0 +1,144 @@
+body {
+  background: #84fdd0;
+  overflow: auto;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  position: relative;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-width: 670px;
+}
+
+.topnav{
+  float: left;
+}
+
+.topnav h1 {
+  padding-top: 0;
+  display: block;
+  padding: 8px;
+  background-color: #add8e6;
+  margin-top: 0;
+  
+}
+
+.topnav a:link {
+  display: block;
+  background-color: #add8e6;
+  text-decoration: none;
+  
+  padding: 16.5px;
+}
+
+.topnav a:hover {
+  background-color: #00ff00;
+  color: white;
+}
+
+nav {
+  float: left;
+  position: fixed;
+}
+
+#sidenavul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #add8e6;
+}
+
+.sidenav h3 {
+  text-align: center;
+  color: #013220;
+}
+
+.sidenav a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: #00ff00;
+  color: white;
+}
+
+section {
+  background-color: white;
+  margin: 40px 20px 5px 210px;
+  border: 5px solid blue;
+  width: 80%;
+}
+
+footer {
+  background-color: white;
+  margin: 0px 20px 0px 210px;
+  padding: 15px 0px;
+  border: 5px dotted gray;
+  width: 80%;
+}
+
+#footheading {
+  text-align: center;
+  color: #013220;
+}
+
+.parainfo1 {
+  padding: 0px 30px;
+}
+
+#fb {
+  background: url('../images/icon.png') no-repeat -91px -46px;
+  background-size: 255px 73px;
+  width: 17px;
+  height: 17px;
+  float: left;
+  margin-left: 40px;
+}
+
+#fb:hover {
+  background: url('../images/icon.png') no-repeat -91px -9px;
+  background-size: 255px 73px;
+  width: 17px;
+  height: 17px;
+}
+
+#twit {
+  background: url('../images/icon.png') no-repeat -148px -46px;
+  background-size: 255px 73px;
+  width: 17px;
+  height: 17px;
+  float: left;
+}
+
+#twit:hover {
+  background: url('../images/icon.png') no-repeat -148px -8px;
+  background-size: 255px 73px;
+  width: 17px;
+  height: 17px;
+}
+
+#email {
+  background: url('../images/icon.png') no-repeat -6px -46px;
+  background-size: 255px 73px;
+  width: 17px;
+  height: 17px;
+  float: left;
+}
+
+#email:hover {
+  background: url('../images/icon.png') no-repeat -6px -8px;
+  background-size: 255px 73px;
+  width: 17px;
+  height: 17px;
+}

@@ -1,0 +1,34 @@
+.mainheader, .subheader  {
+	text-align: center;
+	color: #013220;
+	padding: 10px;
+	width: 80%;
+}
+
+p {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  width: 80%;
+}
+
+img {
+  float: right;
+  margin-right: 10%;
+}
+
+video {
+  margin-left: 20%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+figure {
+  float: left;
+}
+
+.list {
+  list-style-type: disc;
+}
