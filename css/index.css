@@ -12,6 +12,15 @@ p {
   width: 80%;
 }
 
+#link {
+  text-decoration: none;
+  color: green;
+}
+
+#link:hover{
+  color: blue;
+}
+
 img {
   float: right;
   margin-right: 10%;

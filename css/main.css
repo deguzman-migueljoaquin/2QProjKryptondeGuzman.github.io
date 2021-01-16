@@ -29,17 +29,18 @@ header ul {
   
 }
 
-.topnav a:link {
+.topnav a {
   display: block;
   background-color: #add8e6;
   text-decoration: none;
-  
   padding: 16.5px;
+  transition: 0.5s transform ease-out;
 }
 
 .topnav a:hover {
   background-color: #00ff00;
   color: white;
+  transform: scale(1.2,1.2);
 }
 
 nav {
@@ -66,11 +67,13 @@ nav {
   padding: 8px 16px;
   text-decoration: none;
   text-align: center;
+  transition: 0.5s transform ease-out;
 }
 
 .sidenav a:hover {
   background-color: #00ff00;
   color: white;
+  transform: scale(1.5,1.5);
 }
 
 section {
@@ -104,6 +107,7 @@ footer {
   height: 17px;
   float: left;
   margin-left: 40px;
+  transition: 0.5s transform ease-out;
 }
 
 #fb:hover {
@@ -111,6 +115,7 @@ footer {
   background-size: 255px 73px;
   width: 17px;
   height: 17px;
+  transform: scale(1.4,1.4);
 }
 
 #twit {
@@ -119,6 +124,7 @@ footer {
   width: 17px;
   height: 17px;
   float: left;
+  transition: 0.5s transform ease-out;
 }
 
 #twit:hover {
@@ -126,6 +132,7 @@ footer {
   background-size: 255px 73px;
   width: 17px;
   height: 17px;
+  transform: scale(1.4,1.4);
 }
 
 #email {
@@ -134,6 +141,7 @@ footer {
   width: 17px;
   height: 17px;
   float: left;
+  transition: 0.5s transform ease-out;
 }
 
 #email:hover {
@@ -141,4 +149,5 @@ footer {
   background-size: 255px 73px;
   width: 17px;
   height: 17px;
+  transform: scale(1.4,1.4);
 }
